@@ -1,0 +1,303 @@
+*, html{
+	margin: 0px;
+	padding: 0px;
+}
+h2{
+	color: #fff;
+	font-family: helvetica;
+	text-align: center;
+}
+#inicio {
+	background: url(http://teknigt.com/proyectos/images/bg_inicio.jpg) 50% 0 no-repeat fixed;
+	min-height: 700px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+article#home{
+	padding: 170px 0 100px 0px;
+}
+
+@media screen and (max-width:768px){
+
+	article#home{
+		padding: 20px 0 100px 0px;
+		text-align: center;
+	}
+	.navbar{
+		background-color: rgb(94, 25, 25) !important;
+	}
+}
+article{
+	padding: 20px;
+}
+
+.description{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	height: 450px !important;
+	width: 450px !important;
+	padding: 20px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	-o-border-radius: 250px;
+	border-radius: 250px;
+
+}
+
+.description p{
+	font-size: 15px;
+	margin-top: 100px;
+}
+.menu{
+	text-align: center;
+	background: black;
+	color: white;
+	margin: 10px 0 10px 0;
+	
+
+}
+.menu ul li{
+	list-style: none;
+	display: inline;
+}
+#colecciones {
+
+	/*background-color: beige;*/
+	background: url(http://teknigt.com/proyectos/images/bg_coleccion.jpg) 50% 0 repeat fixed;
+	min-height: 700px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+#colecciones article a img{
+	border-radius: 50%;
+	display: block;
+	max-width: 100%;
+	height: auto;
+
+}
+#colection img, h3 {
+text-align: center;
+margin: 0 auto;
+}
+
+
+.col{
+	height: auto;
+	color: white;
+	padding: 30px;
+	
+}
+#contacto{
+	background: #515151 50% 0 no-repeat fixed;
+	min-height: 700px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+}
+article h2{
+	float: left;
+	position: absolute;
+}
+/*.logoMuseo{
+	background: url(images/logo_museo.png) no-repeat;
+	display: block;
+	float: left;
+	height: 368px;
+	margin: 100px 0px 0px 0px;
+	width: 517px;
+
+}
+*/
+.logoMuseo{
+	background: url(http://teknigt.com/proyectos/images/logo_museo.png) no-repeat;
+	display: block;
+	float: left;
+	height: 368px;
+	margin: 100px 0px 0px 0px;
+	width: 517px;
+
+}
+img.logoMuseoP {
+height: 50px;
+padding-left: 20px;
+}
+
+.navbar{
+	min-height: 52px !important;
+}
+.navbar-default {
+background-color: #612119 !important;
+background-image:none !important; 
+border-color: #612119 !important;
+}
+.navbar-default >li>a {
+color: #FFF !important;
+}
+
+
+/* *********************************
+           Variables
+  ********************************** */
+/* *********************************
+   Some Style Overrides on Bootstrap
+  ********************************** */
+.navbar-trans {
+  background: rgba(94, 25, 25, 0);
+  border-bottom: none;
+}
+
+.navbar-trans .navbar-toggle {
+  border: 1px solid #333;
+  border-color: rgba(255, 255, 255, 0.7);
+}
+.navbar-trans .navbar-toggle .icon-bar {
+background-color: #FFF;
+}
+.navbar-trans .navbar-collapse, .navbar-trans .navbar-form {
+  border-color: transparent;
+}
+@media (max-width: 767px) {
+  .navbar-trans .navbar-collapse, .navbar-trans .navbar-form {
+    background: rgba(94, 25, 25, 1);
+
+  }
+}
+
+.navbar-trans .navbar-nav > li > a {
+  color: white;
+}
+
+
+.navbar-trans .navbar-nav > li > a:hover, .navbar-trans .navbar-nav > li > a:focus {
+  color: #FFF;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+text-decoration: none;
+border-bottom: 1px solid white !important;
+background-color: rgba(255, 255, 255, 0.25) !important;
+}
+/* *********************************
+           Toolbar Logo
+  ********************************** */
+.small-logo-container {
+  padding-top: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.small-logo {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 2px;
+}
+
+/* *********************************
+           Big Logo
+  ********************************** */
+.big-logo-row {
+  background: gold;
+}
+.big-logo-row .big-logo-container {
+  padding-top: 50px;
+}
+.big-logo-row h1 {
+  font-size: 4em;
+  margin: 0;
+  padding: 0 0 15px 0;
+}
+@media (min-width: 400px) {
+  .big-logo-row h1 {
+    font-size: 4.5em;
+  }
+}
+@media (min-width: 440px) {
+  .big-logo-row h1 {
+    font-size: 5.5em;
+  }
+}
+@media (min-width: 500px) {
+  .big-logo-row h1 {
+    font-size: 6.5em;
+  }
+}
+@media (min-width: 630px) {
+  .big-logo-row h1 {
+    font-size: 7.5em;
+  }
+}
+@media (min-width: 768px) {
+  .big-logo-row h1 {
+    font-size: 9em;
+    padding-bottom: 30px;
+
+
+  }
+}
+@media (min-width: 1200px) {
+  .big-logo-row h1 {
+    font-size: 12em;
+  }
+}
+
+@media (max-width: 767px){}
+
+}
+
+/*
+
+a[id="home"]:target ~  .article {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+
+
+
+a[id="colecciones"]:target ~ #main  section.article{
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[id="contact"]:target ~ #main section article.article {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
+
+.article {
+    
+    z-index:0; 
+    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+    
+}
+*/
